@@ -6,7 +6,7 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket = "sreeterraformbucket"
+    bucket = "terraformbucket"
     key    = "myterraform.tfstate"
     region = "us-east-1"
     # Replace this with your DynamoDB table name!
