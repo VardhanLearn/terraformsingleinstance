@@ -20,7 +20,7 @@ resource "aws_vpc" "default" {
     enable_dns_hostnames = true
     tags = {
         Name = "${var.vpc_name}"
-	Owner = "Sreeharsha Veerapalli"
+	Owner = "Vardhan"
 	environment = "${var.environment}"
     }
 }
@@ -122,7 +122,7 @@ resource "aws_security_group" "allow_all" {
 #     tags = {
 #         Name = "Server-1"
 #         Env = "Prod"
-#         Owner = "Sree"
+#         Owner = "Vardhan"
 # 	CostCenter = "ABCD"
 #     }
 # }
